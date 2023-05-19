@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #10101a;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+}
+
+.scroll_top {
+  width: 40px !important;
+  height: 40px !important;
+  background: linear-gradient(#3e2a64, #204271) !important;
+}
+
+.scroll_top .icon {
+  width: 26px;
+  height: 26px;
+  color: white;
+}
+
+/* BG ELM STYLE */
+.bg_elm_1 {
+  background: linear-gradient(#3e2a64, #204271);
+  width: 500px;
+  height: 500px;
+  filter: blur(176.172px);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.bg_elm_2 {
+  background: linear-gradient(#204271, #3e2a64);
+  /* background: linear-gradient(#3e2a64, #204271); */
+  width: 350px;
+  height: 250px;
+  filter: blur(76.172px);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.heading {
+  background: linear-gradient(to right, #774ec5, #4b8ff0, #543888, #1e7cff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 767px) {
+  header {
+    height: auto;
+    margin-bottom: 70px;
+  }
+  .bg_elm_1 {
+    width: 300px !important;
+    height: 300px !important;
+    filter: blur(76.172px) !important;
+  }
+
+  .bg_elm_2 {
+    background: linear-gradient(#204271, #3e2a64);
+    /* background: linear-gradient(#3e2a64, #204271); */
+    width: 250px;
+    height: 250px;
+    filter: blur(76.172px);
+    left: 0;
+    bottom: 50px;
+  }
+}

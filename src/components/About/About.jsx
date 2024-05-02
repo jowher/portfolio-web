@@ -6,7 +6,7 @@ import bannerImg from "../../assets/img/about_banner_2.png";
 import certificate_1 from "../../assets/img/certificate_1.png";
 import certificate_2 from "../../assets/img/cert2.png";
 import certificate_3 from "../../assets/img/certificate_3.png";
-import resume from "../../assets/img/resume new.pdf";
+import resume from "../../assets/img/jowher_2024_resume.pdf";
 import "./AboutStyle.css";
 
 const About = () => {
@@ -47,24 +47,21 @@ const About = () => {
                 </li>
                 <li>
                   <span>Address:</span>
-                  <span>283 American campus Dr, Buffalo, New York</span>
+                  <span>Buffalo, New York</span>
                 </li>
-                <li>
-                  <span>Zip code:</span>
-                  <span>14228</span>
-                </li>
+                
                 <li>
                   <span>Email:</span>
                   <span>ali.jowher4@gmail.com</span>
                 </li>
                 <li>
                   <span>Phone:</span>
-                  <span>+1 716-2320608</span>
+                  <span>+1 716-910-1992</span>
                 </li>
               </ul>
 
               <h4 className="project_text">
-                <span>7+</span> Projects completed
+                <span>10+</span> Projects completed
               </h4>
 
               <a href={resume} download>
@@ -136,14 +133,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <div className="progress_box kafka_bar">
-                  <p className="title">Kafka</p>
-                  <div className="progress_bar">
-                    <div className="line">
-                      <div className="circle"></div>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
 
               <div className="col-lg-3">
@@ -201,14 +191,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <div className="progress_box tensorflow_bar">
-                  <p className="title">Tensorflow</p>
-                  <div className="progress_bar">
-                    <div className="line">
-                      <div className="circle"></div>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
 
               <div className="col-lg-3">
@@ -221,14 +204,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <div className="progress_box spring_boot_bar">
-                  <p className="title">Redux</p>
-                  <div className="progress_bar">
-                    <div className="line">
-                      <div className="circle"></div>
-                    </div>
-                  </div>
-                </div>
+                
 
                 <div className="progress_box pytest_bar">
                   <p className="title">JUnit</p>
@@ -239,17 +215,10 @@ const About = () => {
                   </div>
                 </div>
 
-                <div className="progress_box cypress_bar">
-                  <p className="title">scikit</p>
-                  <div className="progress_bar">
-                    <div className="line">
-                      <div className="circle"></div>
-                    </div>
-                  </div>
-                </div>
+                
 
                 <div className="progress_box oracle_bar">
-                  <p className="title">MongoDB</p>
+                  <p className="title">GCP</p>
                   <div className="progress_bar">
                     <div className="line">
                       <div className="circle"></div>
@@ -266,14 +235,16 @@ const About = () => {
                   </div>
                 </div>
 
-                <div className="progress_box CNN_bar">
-                  <p className="title">CNN</p>
+                <div className="progress_box kafka_bar">
+                  <p className="title">Hadoop</p>
                   <div className="progress_bar">
                     <div className="line">
                       <div className="circle"></div>
                     </div>
                   </div>
                 </div>
+
+                
               </div>
 
               <div className="col-lg-3">
@@ -304,17 +275,10 @@ const About = () => {
                   </div>
                 </div>
 
-                <div className="progress_box XGBoost_bar">
-                  <p className="title">opencv</p>
-                  <div className="progress_bar">
-                    <div className="line">
-                      <div className="circle"></div>
-                    </div>
-                  </div>
-                </div>
+           
 
                 <div className="progress_box postgres_bar">
-                  <p className="title">Hadoop</p>
+                  <p className="title">Kafka</p>
                   <div className="progress_bar">
                     <div className="line">
                       <div className="circle"></div>
@@ -323,7 +287,7 @@ const About = () => {
                 </div>
 
                 <div className="progress_box GCP_bar">
-                  <p className="title">GCP</p>
+                  <p className="title">MongoDB</p>
                   <div className="progress_bar">
                     <div className="line">
                       <div className="circle"></div>
@@ -331,14 +295,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <div className="progress_box RNN_bar">
-                  <p className="title">RNN</p>
-                  <div className="progress_bar">
-                    <div className="line">
-                      <div className="circle"></div>
-                    </div>
-                  </div>
-                </div>
+               
               </div>
             </div>
           </div>

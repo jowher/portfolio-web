@@ -48,7 +48,7 @@ const Contact = () => {
                   <FiPhoneCall className="icon" />
                 </div>
 
-                <span>+1 716-2320608</span>
+                <span>+1 716-910-1992</span>
               </div>
             </div>
           </div>

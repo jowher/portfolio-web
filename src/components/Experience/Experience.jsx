@@ -9,6 +9,43 @@ const Experience = () => {
         <h3 className="heading">Work Experience</h3>
 
         <div className="row g-4 experience_card_container">
+
+        <div className="col-lg-6">
+            <div className="experience_card">
+              <div>
+                <div className="icon_container">
+                  <MdWorkOutline />
+                </div>
+              </div>
+
+              <span className="location d-none d-lg-block">New York, USA</span>
+              <span className="date d-none d-lg-block">SEP 2022 - Present</span>
+
+              <h3 className="title">
+                Software Engineer <AiOutlineMinus className="icon" />
+                <span>CVS Health Corporation</span>
+              </h3>
+
+              <span className="location location_sm">New York, USA</span>
+              <span className="date date_sm">Aug 2023 - Present</span>
+
+              <ul>
+                <li>
+                Managed and developed a user interface enabling the discovery of medical and prescription data from various sources within our data pipeline, 
+                featuring user-friendly querying capabilities.
+                </li>
+                <li>
+                Created a user interface from scratch for a DAG utility tool, with the resulting DAGs stored in a GCS bucket.
+                </li>
+                <li>Designed a user interface for document review, allowing users to upload PDFs, search using a DCN number, retrieve bounding box coordinates via API, and highlight relevant areas within the document.</li>
+                <li>
+                Developed a spike dashboard for business purposes, facilitating graphical trend analysis of procedure amounts with filtering options based on plan sponsor and patient information.
+                </li>                
+              </ul>
+            </div>
+          </div>
+
+
           <div className="col-lg-6">
             <div className="experience_card">
               <div>
@@ -18,7 +55,7 @@ const Experience = () => {
               </div>
 
               <span className="location d-none d-lg-block">Remote, USA</span>
-              <span className="date d-none d-lg-block">SEP 2022 - Present</span>
+              <span className="date d-none d-lg-block">Sep 2022 - June 2023</span>
 
               <h3 className="title">
                 Software Engineer <AiOutlineMinus className="icon" />
@@ -136,7 +173,7 @@ const Experience = () => {
               </div>
               <span className="location d-none d-lg-block">Bangalore</span>
               <span className="date d-none d-lg-block">
-                Aug 2017 - June 2018
+              Jan 2018 - May 2018
               </span>
 
               <h3 className="title">
@@ -145,7 +182,7 @@ const Experience = () => {
               </h3>
 
               <span className="location location_sm">Bangalore</span>
-              <span className="date date_sm">Aug 2017 - June 2018</span>
+              <span className="date date_sm">Jan 2018 - May 2018</span>
 
               <ul>
                 <li>
